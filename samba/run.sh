@@ -2,7 +2,7 @@
 set -e
 
 [[ ! -e /share/hdd ]];
-    mkdir -p /share/hdd || die 'Could not create hdd mount directory'
+    mkdir -p /share/hdd
     chmod -R 0777 /share/hdd
 fi
 
