@@ -11,5 +11,6 @@ RUN apk add --no-cache \
 # Copy data
 COPY run.sh /
 COPY smb.conf /etc/
+RUN chmod +x /run.sh
 
 CMD [ "/run.sh" ]
