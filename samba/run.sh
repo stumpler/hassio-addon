@@ -3,8 +3,8 @@ set -e
 
 source /usr/lib/hassio-addons/base.sh
 
-if ! hass.directory_exists '/share/hdd'; then
-    mkdir -p /share/hdd || hass.die 'Could not create hdd mount directory'
+if ! -d '/share/hdd'; then
+    mkdir -p /share/hdd || die 'Could not create hdd mount directory'
     chmod -R 0777 /share/hdd
 fi
 
