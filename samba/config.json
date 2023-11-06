@@ -1,6 +1,6 @@
 {
   "name": "Samba share",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "slug": "samba",
   "init": false,
   "description": "Expose Hass.io folders with SMB/CIFS",
