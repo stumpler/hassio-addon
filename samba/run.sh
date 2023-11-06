@@ -2,8 +2,8 @@
 set -e
 
 if [[ ! -e /share/hdd ]]; then
-    mkdir -p /share/hdd
-    chmod -R 0777 /share/hdd
+    mkdir -p /share/sdb
+    chmod -R 0777 /share/sdb
 fi
 
 CONFIG_PATH=/data/options.json
