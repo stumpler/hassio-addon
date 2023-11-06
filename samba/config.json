@@ -2,6 +2,7 @@
   "name": "Samba share",
   "version": "0.8.2",
   "slug": "samba",
+  "init": false,
   "description": "Expose Hass.io folders with SMB/CIFS",
   "url": "https://github.com/popsodav/hassio-addons-example/samba/",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
